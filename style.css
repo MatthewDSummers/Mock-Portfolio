@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+	width:970px;
+    margin: auto;
+    font-family: "Arial", sans-serif;
+}
+#header{
+    padding:15px;
+    background-color:#f9f9f9;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#header h3{
+    margin-right:40px;
+    font-family: "Arial", sans-serif;
+}
+#main-content{
+    padding: 20px 20px 20px 20px;
+    background: radial-gradient(#6f5963,#433038,#211015 )
+}
+#main-content h3{
+    height:35px;
+    line-height:35px;
+    padding: 5px 10px;
+    color:white;
+    background: linear-gradient(#d3d1d4, #918f9a, #a09fa0);
+}
+#main-content h4{
+    padding: 10px 10px;
+    color:white;
+    background: linear-gradient(#d3d1d4, #918f9a, #d3d1d4);
+}
+    #main-content p{
+        padding: 10px 0px 10px 10px;
+    }
+    #main-content a{
+        margin: 0 0 0px 10px;
+    }
+#top{
+    display:flex;
+    margin-bottom: 20px;
+}
+    #top p{
+    font-size:16px;
+    }
+    #my-photo{
+        width:390px;
+        border:5px solid rgb(186,185,186);
+        margin-right: 20px;
+    }
+    #about{
+        background: linear-gradient(to right, #f9f6f8,#ece3eb,#dbccda);
+    }
+#bottom{
+        display:flex;
+        justify-content: space-between;
+        width:283px;
+    }
+    #bottom p{
+        margin-right: 10px;
+        font-size: 15px;
+        height:200px;
+        text-align: justify;
+    }
+.projects{
+    margin-right: 30px;
+    background: linear-gradient(to right, #f9f6f8,#ece3eb,#dbccda);
+    width:290px;
+}
+    .project-image{
+        width: inherit;
+    }
+    .tech{
+        height:160px;
+    }
+    .tech img{
+        padding: 10px 0 0 13px;
+        width:38px;
+        height:38px;
+    }
+button{
+    background-color: #3d785d;
+    color: #eef9f9;
+    font-family: "Arial", sans-serif;
+    padding: 0 5px 0 5px;
+    margin: 10px 100px;
+    height: 25px;
+    white-space: nowrap; 
+    box-shadow: 4px 4px 5px grey;
+    border: solid 1px black;
+    border-radius: 7px;
+}
+#footer{
+    background-color:#f9f9f9;
+    text-align:center;
+    padding: 10px 0 10px 0;
+}
+#social-media{
+    margin-top:15px;
+}
+#social-media a{
+    color:black;
+    font-style:italic;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+#social-media img{
+    height:20px;
+}
+
